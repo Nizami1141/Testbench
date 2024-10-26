@@ -18,9 +18,4 @@ module tb_decoder_2x4();
         A = 2'bxx; #10;
         $finish;
     end
-
-    initial begin
-        $monitor("At time %0t: A = %b, D = %b", $time, A, D);
-    end
-
 endmodule
